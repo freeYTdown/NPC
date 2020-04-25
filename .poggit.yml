@@ -3,6 +3,6 @@
 branches:
 - master
 projects:
-  Slapper:
+  NPC:
     path: ""
 ...
