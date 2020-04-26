@@ -1,8 +1,8 @@
-name: Slapper
+name: NPC
 author: XDslapper
 version: 1.0.0
-description: Slapper, the NPC plugin for PocketMine-MP
-main: slapper\Main
+description: The NPC plugin for PocketMine-MP
+main: npc\Main
 api: [3.9.0]
 mcpe-protocol: [361, 388, 389, 390]
 website: https://github.com/jojoe77777/Slapper
@@ -10,7 +10,7 @@ website: https://github.com/jojoe77777/Slapper
 commands:
   slapper:
     description: Create a Slapper NPC, or edit an existing one!
-    usage: "/slapper [args]..."
+    usage: "/npc [args]..."
     permission: slapper.command
   rca:
     description: Execute a command as someone else!
@@ -23,17 +23,17 @@ commands:
 
 permissions:
   slapper:
-    description: Allow using all Slapper commands
+    description: Allow using all npc commands
     default: op
     children:
       slapper.command:
-        description: Allow using /slapper
+        description: Allow using /npc
         default: op
       slapper.create:
-        description: Allow using command /slapper create
+        description: Allow using command /npc create
         default: op
       slapper.edit:
-        description: Allow editing Slapper entity data with /slapper edit
+        description: Allow editing Slapper entity data with /npc edit
         default: op
       slapper.nothing:
         description: Allow doing nothing
