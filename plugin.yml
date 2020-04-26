@@ -5,7 +5,7 @@ description: The NPC plugin for PocketMine-MP
 main: npc\Main
 api: [3.9.0]
 mcpe-protocol: [361, 388, 389, 390]
-website: https://github.com/jojoe77777/Slapper
+website: https://github.com/XDslapper/NPC
 
 commands:
   slapper:
